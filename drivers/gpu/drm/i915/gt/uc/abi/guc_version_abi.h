@@ -11,7 +11,7 @@
 #endif
 
 #ifndef GUC_VF_VERSION_LATEST_MINOR
-#define GUC_VF_VERSION_LATEST_MINOR	9
+#define GUC_VF_VERSION_LATEST_MINOR	4
 #endif
 
 #endif /* _ABI_GUC_VERSION_ABI_H */
