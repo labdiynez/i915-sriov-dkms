@@ -20,7 +20,7 @@ LSBRELEASE_DEFINE   := $(shell var=$(LSBRELEASE_NAME); var=$$(echo $$var | sed '
 # https://patchwork.kernel.org/project/intel-gfx/patch/20240216211432.519411-1-John.C.Harrison@Intel.com/
 # https://gitlab.com/kernel-firmware/linux-firmware/-/merge_requests/156
 GUCFIRMWARE_MAJOR ?= $(shell echo $${GUCFIRMWARE_MAJOR:-1})
-GUCFIRMWARE_MINOR ?= $(shell echo $${GUCFIRMWARE_MINOR:-13})
+GUCFIRMWARE_MINOR ?= $(shell echo $${GUCFIRMWARE_MINOR:-17})
 
 version:
 $(info KERNELRELEASE=$(KERNELRELEASE))
